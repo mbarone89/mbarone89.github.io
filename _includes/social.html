@@ -31,10 +31,10 @@
     <li><a class="fa fa-2x fa-flickr" href="https://flickr.com/photos/{{ site.flickr }}"><span class="description">Flickr</span></a></li>
     {% endif %}
 
-    {% if site.github %}
-    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github }}"><span class="description">GitHub</span></a></li>
+    {% if site.email %}
+    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
     {% endif %}
-
+	
     {% if site.codepen %}
     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen }}"><span class="description">CodePen</span></a></li>
     {% endif %}
@@ -47,7 +47,11 @@
     <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud }}"><span class="description">Soundcloud</span></a></li>
     {% endif %}
 
-    {% if site.lastfm %}
+    {% if site.resume %}
+    <li><a class="fa fa-2x fa-download" href="{{ site.resume }}"><span class="description">Curriculum</span></a></li>
+    {% endif %}
+	
+	{% if site.lastfm %}
     <li><a class="fa fa-2x fa-lastfm" href="http://www.last.fm/user/{{ site.lastfm }}"><span class="description">Last.fm</span></a></li>
     {% endif %}
 
@@ -71,16 +75,16 @@
     <li><a class="fa fa-2x fa-tags" href="{{ site.blog_url }}"><span class="description">Blog</span></a></li>
     {% endif %}
 
-    {% if site.email %}
-    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
-    {% endif %}
-
     {% if site.keybase %}
     <li><a class="fa fa-2x fa-key" href="https://keybase.io/{{ site.keybase }}"><span class="description">Keybase</span></a></li>
     {% endif %}
 
     {% if site.telegram %}
     <li><a class="fa fa-2x fa-paper-plane" href="https://telegram.me/{{ site.telegram }}"><span class="description">Telegram</span></a></li>
+    {% endif %}
+	
+	{% if site.github %}
+    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github }}"><span class="description">GitHub</span></a></li>
     {% endif %}
 
     {% include too_social.html %}
