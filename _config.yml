@@ -3,7 +3,7 @@ remote_theme: 'epidrome/cover-card'
 
 # Title and tag line
 title: 'Marcos Barone'
-description: '&bull;&nbsp;Administrador&nbsp;de&nbsp;empresas&ensp;&bull;&nbsp;Aprendiendo&nbsp;Data&nbsp;Analytics&nbsp;&amp;&nbsp;Data&nbsp;Science&ensp;&bull;&nbsp;Apasionado&nbsp;por&nbsp;el&nbsp;E&#x2011;commerce'
+description: '&bull;&nbsp;Administrador&nbsp;de&nbsp;empresas&ensp;&nbsp;&bull;&nbsp;Aprendiendo&nbsp;Data&nbsp;Analytics&nbsp;&amp;&nbsp;Data&nbsp;Science&ensp;&bull;&nbsp;Apasionado&nbsp;por&nbsp;el&nbsp;E&#x2011;commerce'
 
 # Images
 avatar: 'avatar.jpg'
