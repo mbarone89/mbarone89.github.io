@@ -51,6 +51,7 @@ ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    box-shadow: 1px 1px #000000;
 }
 li {
     border-radius: 100%;
@@ -83,7 +84,6 @@ a {
 @media (max-width: 450px) {
 ul {
     text-align: center;
-    box-shadow: 1px 1px #000000;
 }
 li {
     border-radius: 0%;
