@@ -28,12 +28,11 @@ body {
 }
 h1 {
     color: white;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 4em;
     font-family: Helvetica;
     margin: -10px 0;
-    text-shadow: 1px 1px #000000;
 }
 h3 {
     color: white;
